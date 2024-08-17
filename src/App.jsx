@@ -1,12 +1,15 @@
 
 import './App.css'
+import Nav from './Components/Nav'
+import Home from './Pages/Home'
 
 function App() {
 
 
   return (
     <>
-      <h1>Hi</h1>
+      <Nav />
+      <Home />
     </>
   )
 }
