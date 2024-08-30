@@ -10,11 +10,11 @@ const Hero = () => {
                             intricate legal landscape. Count on us to address complex issues with
                             forward-thinking strategies and ensuring your success.
                         </p>
-                        <button className="p-5 text-lg bg-red-900 text-white w-[40%] font-extralight">
+                        <button className="p-5 text-lg bg-[#830000] text-white w-[40%] font-extralight">
                             See Services
                         </button>
                     </div>
-                    <div className="bg-red-900 p-4">
+                    <div className="bg-[#830000] p-4">
                         <div className="w-full flex flex-col md:flex-row gap-4 justify-evenly text-white">
                             <div className="flex flex-col gap-2 ">
                                 <h1 className="text-3xl font-light md:text-3xl">20</h1>

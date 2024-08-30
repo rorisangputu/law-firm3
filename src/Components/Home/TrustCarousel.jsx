@@ -20,8 +20,8 @@ const TrustCarousel = () => {
     }, []);
 
     return (
-        <div className='w-full bg-[#961717] overflow-hidden'>
-            <div className='w-[90%] mx-auto py-10'>
+        <div className='w-full bg-[#830000] overflow-hidden flex flex-col gap-5 py-10'>
+            <div className='w-[90%] mx-auto'>
                 <p className='text-xl text-white font-thin'>They have trusted us.</p>
             </div>
             <div className='w-full'>
