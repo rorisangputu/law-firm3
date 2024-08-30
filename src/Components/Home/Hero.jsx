@@ -4,13 +4,13 @@ const Hero = () => {
             <div className="w-full lg:w-1/2 flex flex-col justify-between">
                 <div className="w-[90%] lg:w-[80%] mx-auto mt-7 flex flex-col justify-evenly lg:justify-between h-[85vh] md:h-screen">
                     <div className="flex flex-col gap-4 font-light">
-                        <h1 className="text-2xl  md:text-5xl">Strategic <span className="text-red-800">Legal Solutions</span> for Today&apos;s Challenges</h1>
-                        <p className="text-gray-600 text-sm my-5 md:text-xl">
+                        <h1 className="text-4xl  md:text-5xl">Strategic <span className="text-red-800">Legal Solutions</span> for Today&apos;s Challenges</h1>
+                        <p className="text-gray-600 text-lg my-5 md:text-xl">
                             Our strategic legal expertise offers innovative solutions to navigate today&apos;s
                             intricate legal landscape. Count on us to address complex issues with
                             forward-thinking strategies and ensuring your success.
                         </p>
-                        <button className="p-5 bg-red-800 text-white w-[40%] font-extralight">
+                        <button className="p-5 bg-red-900 text-white w-[40%] font-extralight">
                             See Services
                         </button>
                     </div>

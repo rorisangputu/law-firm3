@@ -13,7 +13,7 @@ const Nav = () => {
             <div className='w-[90%] mx-auto'>
                 <div className='flex items-center justify-between'>
                     <div>
-                        <img src={Logo} alt="Logo" className='h-12 w-12' />
+                        <img src={Logo} alt="Logo" className='h-20 w-20' />
                     </div>
 
                     <div className='hidden md:flex'>
@@ -28,7 +28,7 @@ const Nav = () => {
                     <div className='md:hidden'>
                         <button onClick={handleNavToggle} className='focus:outline-none'>
                             <svg
-                                className="w-6 h-6 text-red-800"
+                                className="w-10 h-10 text-red-800"
                                 fill="none"
                                 stroke="currentColor"
                                 viewBox="0 0 24 24"
