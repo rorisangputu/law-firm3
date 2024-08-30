@@ -3,7 +3,7 @@ import TrustCarousel from '../Components/Home/TrustCarousel'
 
 const Home = () => {
     return (
-        <div>
+        <div className='h-screen'>
             <Hero />
             <TrustCarousel />
         </div>
