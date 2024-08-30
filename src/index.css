@@ -1,3 +1,26 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.carousel-image {
+    width: 100px;
+    /* Set a uniform width */
+    height: auto;
+    /* Maintain aspect ratio */
+    object-fit: contain;
+    /* Ensures the image scales uniformly */
+    max-height: 80px;
+    /* Limit the maximum height for uniform appearance */
+    display: block;
+    /* Center the image */
+    margin: auto;
+    /* Optional: if you want to center within span */
+}
+
+.carousel-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    /* Adjust based on your design */
+}
