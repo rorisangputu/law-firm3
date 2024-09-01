@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='border-t flex flex-col gap-9 justify-between'>
+                <div className='border-t flex flex-col lg:flex-row items-end gap-9 justify-between'>
                     <div className='flex flex-col gap-1'>
                         <img src={logo} alt="Logo" className='h-24 w-24' />
                         <div className='font-extralight text-gray-500 text-sm lg:text-lg'>
@@ -38,7 +38,7 @@ const Footer = () => {
                         </div>
                     </div>
                     <div className='flex flex-col gap-3'>
-                        <div className='flex gap-3'>
+                        <div className='flex gap-3 lg:justify-end'>
                             <FaFacebook className='h-5 w-5 lg:h-7 lg:w-7' />
                             <FaXTwitter className='h-5 w-5 lg:h-7 lg:w-7' />
                             <FaLinkedin className='h-5 w-5 lg:h-7 lg:w-7' />
