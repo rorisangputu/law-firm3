@@ -1,4 +1,5 @@
 import AboutUs from '../Components/Home/AboutUs';
+import Clients from '../Components/Home/Clients';
 import ConsultationCTO from '../Components/Home/ConsultationCTO';
 import Hero from '../Components/Home/Hero';
 import HomeLawyer from '../Components/Home/HomeLawyer';
@@ -14,6 +15,7 @@ const Home = () => {
             <HomeLawyer />
             <PracticeAreas />
             <ConsultationCTO />
+            <Clients />
         </div>
     );
 };
