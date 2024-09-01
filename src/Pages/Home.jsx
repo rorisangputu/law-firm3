@@ -2,6 +2,7 @@ import AboutUs from '../Components/Home/AboutUs';
 import Clients from '../Components/Home/Clients';
 import ConsultationCTO from '../Components/Home/ConsultationCTO';
 import Hero from '../Components/Home/Hero';
+import HomeFAQ from '../Components/Home/HomeFAQ';
 import HomeLawyer from '../Components/Home/HomeLawyer';
 import PracticeAreas from '../Components/Home/PracticeAreas';
 import TrustCarousel from '../Components/Home/TrustCarousel';
@@ -16,6 +17,7 @@ const Home = () => {
             <PracticeAreas />
             <ConsultationCTO />
             <Clients />
+            <HomeFAQ />
         </div>
     );
 };
