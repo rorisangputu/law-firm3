@@ -49,10 +49,10 @@ const Nav = () => {
                 {/* Mobile Nav */}
                 <div className={`${nav ? 'block' : 'hidden'} absolute top-full left-0 w-full bg-white z-10 shadow-lg md:hidden`}>
                     <ul className='flex flex-col gap-4 font-extralight justify-between items-center py-4'>
-                        <li className='hover:underline transition-transform transform duration-300'>Home</li>
-                        <li className='hover:underline transition-transform transform duration-300'>About</li>
-                        <li className='hover:underline transition-transform transform duration-300'>Services</li>
-                        <li className='hover:underline transition-transform transform duration-300'>Contact</li>
+                        <Link to={'/'} className='hover:underline transition-transform transform duration-300'>Home</Link>
+                        <Link to={'/about'} className='hover:underline transition-transform transform duration-300'>About</Link>
+                        <Link to={'/service'} className='hover:underline transition-transform transform duration-300'>Services</Link>
+                        <Link to={'/contact'} className='hover:underline transition-transform transform duration-300'>Contact</Link>
                     </ul>
                 </div>
             </div>
