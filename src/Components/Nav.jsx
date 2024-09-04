@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import Logo from '../assets/LerumoLogo.png';
+import { Link } from 'react-router-dom'
 
 const Nav = () => {
     const [nav, setNav] = useState(false);
@@ -18,10 +19,10 @@ const Nav = () => {
 
                     <div className='hidden md:flex'>
                         <ul className='flex flex-row gap-6 font-extralight justify-between items-center'>
-                            <li className='hover:underline transition-transform transform duration-300'>Home</li>
-                            <li className='hover:underline transition-transform transform duration-300'>About</li>
-                            <li className='hover:underline transition-transform transform duration-300'>Services</li>
-                            <li className='hover:underline transition-transform transform duration-300'>Contact</li>
+                            <Link to={'/'} className='hover:underline transition-transform transform duration-300'>Home</Link>
+                            <Link to={'/about'} className='hover:underline transition-transform transform duration-300'>About</Link>
+                            <Link to={'/service'} className='hover:underline transition-transform transform duration-300'>Services</Link>
+                            <Link to={'/contact'} className='hover:underline transition-transform transform duration-300'>Contact</Link>
                         </ul>
                     </div>
 
