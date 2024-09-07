@@ -29,7 +29,7 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div className='border-t flex flex-col lg:flex-row items-end gap-9 justify-between'>
+                <div className='border-t flex flex-col lg:flex-row items-start lg:items-end gap-9 justify-between'>
                     <div className='flex flex-col gap-1'>
                         <img src={logo} alt="Logo" className='h-24 w-24' />
                         <div className='font-extralight text-gray-500 text-sm lg:text-lg'>
