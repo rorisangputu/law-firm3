@@ -8,7 +8,7 @@ const History = () => {
                 <div className="w-[90%] mx-auto lg:w-1/2 flex justify-center items-center">
                     <div className="lg:w-[80%] lg:h-full my-16 flex flex-col gap-7 lg:gap-5">
                         <p className="text-xl text-[#830000]">History</p>
-                        <h1 className="text-4xl lg:text-3xl">
+                        <h1 className="text-3xl">
                             CRN Law Firm is a leading legal institution
                             known for its rich history and strong legal
                             expertise

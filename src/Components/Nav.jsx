@@ -48,11 +48,11 @@ const Nav = () => {
 
                 {/* Mobile Nav */}
                 <div className={`${nav ? 'block' : 'hidden'} absolute top-full left-0 w-full bg-white z-10 shadow-lg md:hidden`}>
-                    <ul className='flex flex-col gap-4 font-extralight justify-between items-center py-4'>
-                        <Link to={'/'} className='hover:underline transition-transform transform duration-300'>Home</Link>
-                        <Link to={'/about'} className='hover:underline transition-transform transform duration-300'>About</Link>
-                        <Link to={'/service'} className='hover:underline transition-transform transform duration-300'>Services</Link>
-                        <Link to={'/contact'} className='hover:underline transition-transform transform duration-300'>Contact</Link>
+                    <ul className='flex flex-col gap-8 font-extralight justify-between items-center py-7'>
+                        <Link to={'/'} className='hover:underline transition-transform transform duration-300 text-xl'>Home</Link>
+                        <Link to={'/about'} className='hover:underline transition-transform transform duration-300 text-xl'>About</Link>
+                        <Link to={'/service'} className='hover:underline transition-transform transform duration-300 text-xl'>Services</Link>
+                        <Link to={'/contact'} className='hover:underline transition-transform transform duration-300 text-xl'>Contact</Link>
                     </ul>
                 </div>
             </div>
